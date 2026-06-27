@@ -18,104 +18,113 @@ import { toast } from "sonner";
 const projects = [
   {
     id: 1,
-    title: "POS Retail System",
+    title: "Parking Booking Service",
     description:
-      "A comprehensive Point of Sale retail management system for managing sales, inventory, and customer transactions efficiently.",
+    "A full-stack smart parking reservation platform that enables users to search, reserve, and manage parking spaces in real time through a modern web application.",
     icon: ShoppingCart,
     color: "from-blue-500 to-cyan-500",
     technologies: [
-      "Java",
-      "Spring Boot",
-      "React",
-      "MySQL",
-      "REST APIs",
-      "JavaScript",
+       "React",
+    "Spring Boot",
+    "Java",
+    "MySQL",
+    "REST APIs",
+    "JWT",
+    "Axios",
+    "Bootstrap",
+    "Git"
     ],
     features: [
-      "Sales transaction management",
-      "Inventory tracking and management",
-      "Customer management system",
-      "Real-time reporting and analytics",
-      "Receipt generation",
+       "Secure user authentication and authorization",
+    "Real-time parking slot availability",
+    "Online parking reservation management",
+    "Booking history and cancellation",
+    "Responsive dashboard for users and administrators",
+    "RESTful API integration",
+    "Database-driven parking management"
     ],
     stack: "Full-stack",
-    githubLink: "https://github.com/SahanDhanujaya/pos-system-frontend.git",
+    githubLink: "https://github.com/ashanrupasingha/Booking_parking-service.git",
   },
-  {
-    id: 2,
-    title: "Medicare System",
-    description:
-      "A healthcare management system built with Spring Boot backend and React frontend for managing patient records, appointments, and medical services.",
-    icon: Heart,
-    color: "from-red-500 to-pink-500",
-    technologies: [
-      "Spring Boot",
-      "React",
-      "Java",
-      "MySQL",
-      "REST APIs",
-      "JavaScript",
-    ],
-    features: [
-      "Patient record management",
-      "Appointment scheduling",
-      "Medical service tracking",
-      "Secure data handling",
-      "User authentication and authorization",
-    ],
-    stack: "Spring Boot + React",
-    githubLink: "https://github.com/SahanDhanujaya/medi-care.git",
-  },
+ {
+  id: 2,
+  title: "Donation Management System",
+  description:
+    "A full-stack charity and donation management platform that enables users to register, browse donation campaigns, donate products, and manage charitable activities through a secure and responsive web application.",
+
+  icon: Heart,
+
+  color: "from-red-500 to-pink-500",
+
+  technologies: [
+    "Java",
+    "Spring Boot",
+    "React",
+    "MySQL",
+    "JWT",
+    "REST APIs",
+    "JavaScript",
+    "Axios",
+    "Bootstrap",
+    "Hibernate",
+    "Git"
+  ],
+
+  features: [
+    "User Registration & Login",
+    "JWT Authentication",
+    "Email Verification",
+    "Product Management",
+    "Donation Management",
+    "Admin Dashboard",
+    "Image Upload",
+    "Contact Management",
+    "REST API Integration",
+    "Responsive User Interface"
+  ],
+
+  stack: "Full Stack",
+
+  githubLink:
+    "https://github.com/ashanrupasingha/AAD_FINAL_COURSE_WORK.git",
+},
   {
     id: 3,
-    title: "Library Management System",
+    title: "FloraLink Application(Personal Project)",
     description:
-      "A complete library management solution built with MERN stack for managing books, members, borrowing, and returns.",
+    'Designed, developed, and maintained modern full-stack web applications through personal and academic projects while continuously improving software engineering skills.',
     icon: BookOpen,
     color: "from-purple-500 to-indigo-500",
-    technologies: [
-      "MongoDB",
-      "Express.js",
-      "React",
-      "Node.js",
-      "JavaScript",
-      "REST APIs",
-    ],
+    technologies:[
+    'Java',
+    'Spring Boot',
+    'React',
+    'Next.js',
+    'JavaScript',
+    'TypeScript',
+    'Node.js',
+    'Express.js',
+    'MySQL',
+    'PostgreSQL',
+    'MongoDB',
+    'Firebase',
+    'REST APIs',
+    'Axios',
+    'Git',
+    'Docker'
+  ],
     features: [
-      "Book catalog management",
-      "Member registration and management",
-      "Borrowing and return tracking",
-      "Fine calculation system",
-      "Search and filter functionality",
+     'Developed multiple full-stack web applications from scratch',
+    'Built responsive and user-friendly interfaces using React and Next.js',
+    'Designed RESTful APIs with Spring Boot and Node.js',
+    'Integrated relational and NoSQL databases',
+    'Applied clean architecture and reusable component design',
+    'Continuously learned and implemented modern development technologies'
     ],
-    stack: "MERN Stack",
-    githubLink: "https://github.com/SahanDhanujaya/Book_Club_Frontend.git",
+    stack: "Full Stack",
+    githubLink: "https://youtu.be/RIbCmN8lJC4?si=75OGGPPGWClK0DVD",
   },
-  {
-    id: 4,
-    title: "Hotel Booking System",
-    description:
-      "A full-featured hotel reservation system built with MERN stack for managing room bookings, customer information, and hotel operations.",
-    icon: Hotel,
-    color: "from-green-500 to-emerald-500",
-    technologies: [
-      "MongoDB",
-      "Express.js",
-      "React",
-      "Node.js",
-      "JavaScript",
-      "REST APIs",
-    ],
-    features: [
-      "Room availability management",
-      "Online booking system",
-      "Customer reservation tracking",
-      "Payment processing integration",
-      "Admin dashboard for hotel management",
-    ],
-    stack: "MERN Stack",
-    githubLink: "https://github.com/SahanDhanujaya/hotel-booking-system.git",
-  },
+  
 ];
 
 function Projects() {

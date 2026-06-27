@@ -12,34 +12,7 @@ import {
 } from 'lucide-react'
 
 const experiences = [
-  {
-    id: 1,
-    title: 'Lecturer - Software Development',
-    company: 'Educational Institution',
-    location: 'Remote/On-site',
-    duration: '1.5 Years',
-    type: 'Full-time',
-    icon: GraduationCap,
-    color: 'from-blue-500 to-cyan-500',
-    description: 'Teaching software development concepts and best practices to students',
-    technologies: [
-      'Java',
-      'HTML',
-      'CSS',
-      'JavaScript',
-      'MERN Stack',
-      'Spring Boot',
-      'Python',
-      'SQL',
-      'NoSQL',
-    ],
-    achievements: [
-      'Delivered comprehensive lectures on modern web development',
-      'Mentored students in full-stack development practices',
-      'Created hands-on projects and assignments',
-      'Stayed updated with latest industry trends and technologies',
-    ],
-  },
+ 
   {
     id: 2,
     title: 'Freelance Software Developer',
