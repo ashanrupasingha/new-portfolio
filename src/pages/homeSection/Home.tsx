@@ -262,7 +262,8 @@ function Home() {
               <p
                 className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto lg:mx-0 mb-10 animate-fade-in-up"
                 style={{ animationDelay: "0.3s" }}
-              >
+              >       
+              
                 Crafting modern web apps with clean code, sharp design, and a
                 focus on performance and accessibility.
               </p>
